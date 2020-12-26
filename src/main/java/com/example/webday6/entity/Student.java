@@ -1,29 +1,49 @@
 package com.example.webday6.entity;
 
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import com.example.webday6.constant.Gender;
+
 @Entity
 public class Student {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "STUDENT_ID")
-	private int id;
-	@Column(name = "STUDENT_NAME")
+	private Long id;
+	@Column(name = "IDENTITY_NUMBER")
+	private String identityNumber;
 	private String name;
-	@Column(name = "STUDENT_ADDRESS")
-	private String address;
+	private Date dob;
+	private Gender gender;
 
-	public int getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Long id) {
 		this.id = id;
+	}
+
+	public String getIdentityNumber() {
+		return identityNumber;
+	}
+
+	public void setIdentityNumber(String identityNumber) {
+		this.identityNumber = identityNumber;
+	}
+
+	public Gender getGender() {
+		return gender;
+	}
+
+	public void setGender(Gender gender) {
+		this.gender = gender;
 	}
 
 	public String getName() {
@@ -34,12 +54,12 @@ public class Student {
 		this.name = name;
 	}
 
-	public String getAddress() {
-		return address;
+	public Date getDob() {
+		return dob;
 	}
 
-	public void setAddress(String address) {
-		this.address = address;
+	public void setDob(Date dob) {
+		this.dob = dob;
 	}
 
 }
