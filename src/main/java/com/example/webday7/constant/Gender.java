@@ -1,4 +1,4 @@
-package com.example.webday6.constant;
+package com.example.webday7.constant;
 
 public enum Gender {
 

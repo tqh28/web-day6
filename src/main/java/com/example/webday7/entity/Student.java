@@ -1,4 +1,4 @@
-package com.example.webday6.entity;
+package com.example.webday7.entity;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.example.webday6.constant.Gender;
+import com.example.webday7.constant.Gender;
 
 @Entity
 public class Student {

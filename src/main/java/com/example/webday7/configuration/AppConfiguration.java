@@ -1,4 +1,4 @@
-package com.example.webday6.configuration;
+package com.example.webday7.configuration;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -16,7 +16,7 @@ public class AppConfiguration {
 	public LocalSessionFactoryBean sessionFactory(DataSource dataSource) {
 		LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
 		sessionFactory.setDataSource(dataSource);
-		sessionFactory.setPackagesToScan("com.example.webday6.entity");
+		sessionFactory.setPackagesToScan("com.example.webday7.entity");
 		return sessionFactory;
 	}
 

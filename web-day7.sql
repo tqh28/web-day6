@@ -1,6 +1,6 @@
-CREATE DATABASE web_day6;
+CREATE DATABASE web_day7;
 
-USE web_day6;
+USE web_day7;
 
 
 CREATE TABLE STUDENT(

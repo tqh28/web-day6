@@ -1,8 +1,8 @@
-package com.example.webday6.service;
+package com.example.webday7.service;
 
 import java.util.List;
 
-import com.example.webday6.entity.Student;
+import com.example.webday7.entity.Student;
 
 public interface StudentService {
 

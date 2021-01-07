@@ -1,4 +1,4 @@
-package com.example.webday6.controller;
+package com.example.webday7.controller;
 
 import java.text.DateFormat;
 import java.util.List;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.webday6.dto.CreateStudentDTO;
-import com.example.webday6.dto.UpdateStudentDTO;
-import com.example.webday6.entity.Student;
-import com.example.webday6.service.StudentService;
-import com.example.webday6.transform.StudentTransform;
+import com.example.webday7.dto.CreateStudentDTO;
+import com.example.webday7.dto.UpdateStudentDTO;
+import com.example.webday7.entity.Student;
+import com.example.webday7.service.StudentService;
+import com.example.webday7.transform.StudentTransform;
 
 @RestController
 @RequestMapping("/students")

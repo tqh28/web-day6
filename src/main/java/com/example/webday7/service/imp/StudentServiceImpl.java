@@ -1,4 +1,4 @@
-package com.example.webday6.service.imp;
+package com.example.webday7.service.imp;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.webday6.entity.Student;
-import com.example.webday6.repository.StudentRepository;
-import com.example.webday6.service.StudentService;
+import com.example.webday7.entity.Student;
+import com.example.webday7.repository.StudentRepository;
+import com.example.webday7.service.StudentService;
 
 @Service
 public class StudentServiceImpl implements StudentService {

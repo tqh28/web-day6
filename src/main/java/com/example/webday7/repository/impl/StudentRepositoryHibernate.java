@@ -1,4 +1,4 @@
-package com.example.webday6.repository.impl;
+package com.example.webday7.repository.impl;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.example.webday6.entity.Student;
-import com.example.webday6.repository.StudentRepository;
+import com.example.webday7.entity.Student;
+import com.example.webday7.repository.StudentRepository;
 
 @Repository
 public class StudentRepositoryHibernate implements StudentRepository {

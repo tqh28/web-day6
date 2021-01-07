@@ -1,6 +1,6 @@
-package com.example.webday6.dto;
+package com.example.webday7.dto;
 
-import com.example.webday6.constant.Gender;
+import com.example.webday7.constant.Gender;
 
 public class UpdateStudentDTO {
 

@@ -1,13 +1,13 @@
-package com.example.webday6;
+package com.example.webday7;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebDay6Application {
+public class Webday7Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebDay6Application.class, args);
+		SpringApplication.run(Webday7Application.class, args);
 	}
 
 }

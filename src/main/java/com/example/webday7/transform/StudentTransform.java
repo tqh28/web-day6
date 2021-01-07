@@ -1,11 +1,11 @@
-package com.example.webday6.transform;
+package com.example.webday7.transform;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 
-import com.example.webday6.dto.CreateStudentDTO;
-import com.example.webday6.dto.UpdateStudentDTO;
-import com.example.webday6.entity.Student;
+import com.example.webday7.dto.CreateStudentDTO;
+import com.example.webday7.dto.UpdateStudentDTO;
+import com.example.webday7.entity.Student;
 
 public class StudentTransform {
 
