@@ -55,7 +55,7 @@ public class StudentController {
 		Student student = studentService.findById(studentId);
 		StudentTransform transform = new StudentTransform(dateFormat);
 		transform.apply(student, studentDTO);
-		studentService.insert(student);
+		studentService.update(student);
 		return student;
 	}
 
