@@ -4,6 +4,8 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -20,6 +22,7 @@ public class Student {
 	private String identityNumber;
 	private String name;
 	private Date dob;
+	@Enumerated(EnumType.STRING)
 	private Gender gender;
 
 	public Long getId() {
